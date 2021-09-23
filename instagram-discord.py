@@ -28,7 +28,9 @@ import time
 # Set TIME_INTERVAL to the time in seconds in between each check for a new post. Example - 1.5, 600 (default=600)
 # Help: https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-environment-variables-in-linux/
 
-INSTAGRAM_USERNAME = os.environ.get('dananayang')
+INSTAGRAM_USERNAME = "dananayang" # Example: ladygaga
+WEBHOOK_URL = "https://discord.com/api/webhooks/890518102637436928/_6nX6Ts0DYkY_3IMCayYsFtXZD1NBITpD0dYnAGRRLISRf884B0TGJgdRln7Dbt30320"                # Url to your discord webhook
+DATABASE = "database.txt"
 
 # ----------------------- Do not modify under this line ----------------------- #
 
